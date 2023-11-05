@@ -5,6 +5,8 @@ body {
     background-size: cover; /* Ajustar a imagem de fundo para cobrir toda a página */
     background-position: center; /* Centralizar a imagem de fundo */
     background-attachment: fixed;
+    text-align: center;
+
 }
 
 .convite {
@@ -35,4 +37,12 @@ ul {
 ul li {
     margin-left: 20px;
 }
+/* Media query para telas menores (máximo de 768px) */
+@media (max-width: 768px) {
+    .convite {
+        max-width: 100%; /* O convite ocupará toda a largura da tela */
+        padding: 10px; /* Ajuste o espaçamento para telas menores */
+        /* Outros ajustes de estilo para telas menores */
 
+    }
+}
